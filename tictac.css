@@ -1,0 +1,28 @@
+.board{
+    border:  1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.board div{
+    border: 1px solid gray;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.pepe{
+    background-color: blue;
+}
+.board div.o{
+    color: blue;
+}
+.main{
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+}
